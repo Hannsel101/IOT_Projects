@@ -1,4 +1,4 @@
-int photoStatusLED(uint8_t inputRead)
+int photoStatusLED(uint8_t inputRead)//did not work digitalWrite?
 {
   if(inputRead > 600)
     digitalWrite(13, HIGH);
